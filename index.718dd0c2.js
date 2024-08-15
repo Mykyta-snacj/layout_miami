@@ -1,0 +1,2 @@
+window.addEventListener("hashchange",function(){"#menu"===window.location.hash?document.body.classList.add("page__body--with-menu"):document.body.classList.remove("page__body--with-menu")}),document.querySelector("form").onsubmit=function(e){return e.target.reset(),!1},document.getElementById("form").addEventListener("submit",function(e){e.preventDefault()});
+//# sourceMappingURL=index.718dd0c2.js.map
